@@ -5,8 +5,10 @@ import os
 import shutil
 from tqdm import tqdm
 import logging
-from src.utils.common import read_yaml, create_directories
+from src.utils.common import read_yaml, create_directories, unzip_file
+#from src.utils.data_mgmt import validate_image
 import random
+import urllib.request as req
 
 
 STAGE = "get data" ## <<< change stage name 
@@ -37,6 +39,17 @@ def main(config_path, params_path):
         logging.info(f"filename: create with info: ")
     else:
         logging.info(f"filename: create with info: already presnet")
+        
+    #unzip ops
+    unzip_data_dir = config["data"]["unzip_data_dir"]
+    if not os.path.exists(unzip_data_dir):
+        create_directories([unzip_data_dir])
+        unzip_file(source=data_file_path, dest=unzip_data_dir)
+    else:
+        logging.info(f"data already extracted")
+    # validating data
+    #validate_image(config)
+    
     
     params = read_yaml(params_path)
     pass

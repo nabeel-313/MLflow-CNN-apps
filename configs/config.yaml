@@ -4,4 +4,5 @@ data:
   source_data_url: "Enter URL here"
   local_dir: data
   data_file: data.zip
+  unzip_data_dir: data
 

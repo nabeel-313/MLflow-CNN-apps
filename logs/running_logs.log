@@ -1,0 +1,26 @@
+[2023-10-04 17:16:07,613: INFO: stage_01_get_data]: 
+********************
+[2023-10-04 17:16:07,615: INFO: stage_01_get_data]: >>>>> stage get data started <<<<<
+[2023-10-04 17:16:07,625: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2023-10-04 17:16:07,633: INFO: common]: created directory at: data
+[2023-10-04 17:16:07,633: INFO: stage_01_get_data]: Downloading started
+[2023-10-04 17:16:07,633: INFO: stage_01_get_data]: filename: create with info: already presnet
+[2023-10-04 17:16:07,633: ERROR: stage_01_get_data]: 'unzip_data_dir'
+Traceback (most recent call last):
+  File "D:\Ineuron materials FSDS\Deep Learning\MLflow-CNN-apps\src\stage_01_get_data.py", line 67, in <module>
+    main(config_path=parsed_args.config, params_path=parsed_args.params)
+  File "D:\Ineuron materials FSDS\Deep Learning\MLflow-CNN-apps\src\stage_01_get_data.py", line 44, in main
+    unzip_data_dir = config["data"]["unzip_data_dir"]
+                     ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+KeyError: 'unzip_data_dir'
+[2023-10-04 17:17:43,629: INFO: stage_01_get_data]: 
+********************
+[2023-10-04 17:17:43,629: INFO: stage_01_get_data]: >>>>> stage get data started <<<<<
+[2023-10-04 17:17:43,629: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2023-10-04 17:17:43,629: INFO: common]: created directory at: data
+[2023-10-04 17:17:43,629: INFO: stage_01_get_data]: Downloading started
+[2023-10-04 17:17:43,629: INFO: stage_01_get_data]: filename: create with info: already presnet
+[2023-10-04 17:17:43,629: INFO: stage_01_get_data]: data already extracted
+[2023-10-04 17:17:43,629: INFO: common]: yaml file: params.yaml loaded successfully
+[2023-10-04 17:17:43,629: INFO: stage_01_get_data]: >>>>> stage get data completed!<<<<<
+
