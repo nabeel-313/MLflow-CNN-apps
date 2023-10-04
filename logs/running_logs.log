@@ -1,0 +1,105 @@
+[2023-10-04 14:50:48,870: INFO: stage_00_template]: 
+********************
+[2023-10-04 14:50:48,870: INFO: stage_00_template]: >>>>> stage STAGE_NAME started <<<<<
+[2023-10-04 14:50:48,908: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2023-10-04 14:50:48,923: INFO: common]: yaml file: params.yaml loaded successfully
+[2023-10-04 14:50:48,923: INFO: stage_00_template]: >>>>> stage STAGE_NAME completed!<<<<<
+
+[2023-10-04 14:51:45,008: INFO: stage_00_template]: 
+********************
+[2023-10-04 14:51:45,008: INFO: stage_00_template]: >>>>> stage STAGE_NAME started <<<<<
+[2023-10-04 14:51:45,008: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2023-10-04 14:51:45,024: INFO: common]: yaml file: params.yaml loaded successfully
+[2023-10-04 14:51:45,093: INFO: stage_00_template]: >>>>> stage STAGE_NAME completed!<<<<<
+
+[2023-10-04 14:52:37,338: INFO: stage_00_template]: 
+********************
+[2023-10-04 14:52:37,338: INFO: stage_00_template]: >>>>> stage TEMPLATE started <<<<<
+[2023-10-04 14:52:37,338: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2023-10-04 14:52:37,338: INFO: common]: yaml file: params.yaml loaded successfully
+[2023-10-04 14:52:37,338: INFO: stage_00_template]: >>>>> stage TEMPLATE completed!<<<<<
+
+[2023-10-04 15:24:30,165: INFO: stage_01_get_data]: 
+********************
+[2023-10-04 15:24:30,165: INFO: stage_01_get_data]: >>>>> stage TEMPLATE started <<<<<
+[2023-10-04 15:24:30,165: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2023-10-04 15:24:30,165: INFO: common]: yaml file: params.yaml loaded successfully
+[2023-10-04 15:24:30,165: INFO: stage_01_get_data]: >>>>> stage TEMPLATE completed!<<<<<
+
+[2023-10-04 15:25:50,479: INFO: stage_01_get_data]: 
+********************
+[2023-10-04 15:25:50,479: INFO: stage_01_get_data]: >>>>> stage get data started <<<<<
+[2023-10-04 15:25:50,479: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2023-10-04 15:25:50,479: ERROR: stage_01_get_data]: 'data'
+Traceback (most recent call last):
+  File "D:\Ineuron materials FSDS\Deep Learning\MLflow-CNN-apps\src\stage_01_get_data.py", line 49, in <module>
+    main(config_path=parsed_args.config, params_path=parsed_args.params)
+  File "D:\Ineuron materials FSDS\Deep Learning\MLflow-CNN-apps\src\stage_01_get_data.py", line 25, in main
+    URL = config["data"]["source_data_url"]
+          ~~~~~~^^^^^^^^
+KeyError: 'data'
+[2023-10-04 15:28:55,945: INFO: stage_01_get_data]: 
+********************
+[2023-10-04 15:28:55,945: INFO: stage_01_get_data]: >>>>> stage get data started <<<<<
+[2023-10-04 15:28:55,945: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2023-10-04 15:28:55,945: ERROR: stage_01_get_data]: 'data'
+Traceback (most recent call last):
+  File "D:\Ineuron materials FSDS\Deep Learning\MLflow-CNN-apps\src\stage_01_get_data.py", line 49, in <module>
+    main(config_path=parsed_args.config, params_path=parsed_args.params)
+  File "D:\Ineuron materials FSDS\Deep Learning\MLflow-CNN-apps\src\stage_01_get_data.py", line 25, in main
+    URL = config["data"]["source_data_url"]
+          ~~~~~~^^^^^^^^
+KeyError: 'data'
+[2023-10-04 15:29:29,416: INFO: stage_01_get_data]: 
+********************
+[2023-10-04 15:29:29,416: INFO: stage_01_get_data]: >>>>> stage get data started <<<<<
+[2023-10-04 15:29:29,432: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2023-10-04 15:29:29,432: ERROR: stage_01_get_data]: 'data'
+Traceback (most recent call last):
+  File "D:\Ineuron materials FSDS\Deep Learning\MLflow-CNN-apps\src\stage_01_get_data.py", line 49, in <module>
+    main(config_path=parsed_args.config, params_path=parsed_args.params)
+  File "D:\Ineuron materials FSDS\Deep Learning\MLflow-CNN-apps\src\stage_01_get_data.py", line 26, in main
+    local_dir = config["data"]["local_dir"]
+                ~~~~~~^^^^^^^^
+KeyError: 'data'
+[2023-10-04 15:33:27,380: INFO: stage_01_get_data]: 
+********************
+[2023-10-04 15:33:27,380: INFO: stage_01_get_data]: >>>>> stage get data started <<<<<
+[2023-10-04 15:33:27,380: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2023-10-04 15:33:27,396: ERROR: stage_01_get_data]: 'data'
+Traceback (most recent call last):
+  File "D:\Ineuron materials FSDS\Deep Learning\MLflow-CNN-apps\src\stage_01_get_data.py", line 52, in <module>
+    main(config_path=parsed_args.config, params_path=parsed_args.params)
+  File "D:\Ineuron materials FSDS\Deep Learning\MLflow-CNN-apps\src\stage_01_get_data.py", line 26, in main
+    URL = config["data"]["source_data_url"]
+          ~~~~~~^^^^^^^^
+KeyError: 'data'
+[2023-10-04 15:34:16,342: INFO: stage_01_get_data]: 
+********************
+[2023-10-04 15:34:16,342: INFO: stage_01_get_data]: >>>>> stage get data started <<<<<
+[2023-10-04 15:34:16,342: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2023-10-04 15:34:16,342: INFO: common]: created directory at: data
+[2023-10-04 15:34:16,342: INFO: stage_01_get_data]: filename: create with info: 
+[2023-10-04 15:34:16,342: INFO: common]: yaml file: params.yaml loaded successfully
+[2023-10-04 15:34:16,342: INFO: stage_01_get_data]: >>>>> stage get data completed!<<<<<
+
+[2023-10-04 15:44:55,001: INFO: stage_01_get_data]: 
+********************
+[2023-10-04 15:44:55,001: INFO: stage_01_get_data]: >>>>> stage get data started <<<<<
+[2023-10-04 15:44:55,001: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2023-10-04 15:44:55,048: INFO: common]: created directory at: data
+[2023-10-04 15:44:55,048: INFO: stage_01_get_data]: Downloading started
+[2023-10-04 15:44:55,048: INFO: stage_01_get_data]: filename: create with info: already presnet
+[2023-10-04 15:44:55,048: INFO: common]: yaml file: params.yaml loaded successfully
+[2023-10-04 15:44:55,048: INFO: stage_01_get_data]: >>>>> stage get data completed!<<<<<
+
+[2023-10-04 15:45:53,611: INFO: stage_01_get_data]: 
+********************
+[2023-10-04 15:45:53,611: INFO: stage_01_get_data]: >>>>> stage get data started <<<<<
+[2023-10-04 15:45:53,611: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2023-10-04 15:45:53,611: INFO: common]: created directory at: data
+[2023-10-04 15:45:53,611: INFO: stage_01_get_data]: Downloading started
+[2023-10-04 15:45:53,611: INFO: stage_01_get_data]: filename: create with info: already presnet
+[2023-10-04 15:45:53,611: INFO: common]: yaml file: params.yaml loaded successfully
+[2023-10-04 15:45:53,611: INFO: stage_01_get_data]: >>>>> stage get data completed!<<<<<
+
