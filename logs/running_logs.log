@@ -24,3 +24,15 @@ KeyError: 'unzip_data_dir'
 [2023-10-04 17:17:43,629: INFO: common]: yaml file: params.yaml loaded successfully
 [2023-10-04 17:17:43,629: INFO: stage_01_get_data]: >>>>> stage get data completed!<<<<<
 
+[2023-10-04 17:44:44,986: INFO: stage_01_get_data]: 
+********************
+[2023-10-04 17:44:44,986: INFO: stage_01_get_data]: >>>>> stage get data started <<<<<
+[2023-10-04 17:44:44,986: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2023-10-04 17:44:44,986: INFO: common]: created directory at: data
+[2023-10-04 17:44:44,986: INFO: stage_01_get_data]: Downloading started
+[2023-10-04 17:44:44,986: INFO: stage_01_get_data]: filename: create with info: already presnet
+[2023-10-04 17:44:44,990: INFO: stage_01_get_data]: data already extracted
+[2023-10-04 17:44:45,002: INFO: common]: created directory at: data\bad_data
+[2023-10-04 17:45:15,464: INFO: common]: yaml file: params.yaml loaded successfully
+[2023-10-04 17:45:15,464: INFO: stage_01_get_data]: >>>>> stage get data completed!<<<<<
+

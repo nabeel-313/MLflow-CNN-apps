@@ -6,7 +6,7 @@ import shutil
 from tqdm import tqdm
 import logging
 from src.utils.common import read_yaml, create_directories, unzip_file
-#from src.utils.data_mgmt import validate_image
+from src.utils.data_mgmt import validate_image
 import random
 import urllib.request as req
 
@@ -48,7 +48,7 @@ def main(config_path, params_path):
     else:
         logging.info(f"data already extracted")
     # validating data
-    #validate_image(config)
+    validate_image(config)
     
     
     params = read_yaml(params_path)
