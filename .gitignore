@@ -139,8 +139,7 @@ configs/secrets.yaml
 
 # add your env folder here if its there
 mlruns/
-data/
-logs/
-PetImages/
-data/model/
+logs/running_logs.log
+data/PetImages/
+data/model/*.h5
 
