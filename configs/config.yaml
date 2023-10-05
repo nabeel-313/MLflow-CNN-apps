@@ -22,5 +22,5 @@ params:
   batch_size: 32
   seed: 42
   buffer_size: 32
-  epochs: 3
+  epochs: 30
 

@@ -71,10 +71,11 @@ def main(config_path):
     
     #Early stop call back
     earlystop = tf.keras.callbacks.ModelCheckpoint(early_stop, 
-                                     monitor='val_loss', 
-                                     verbose=0, 
+                                     monitor='val_loss',
+                                     patience=3, 
                                      save_best_only=False,
                                      save_weights_only=False, 
+                                     restore_best_weights=True,
                                      mode='auto', 
                                      save_freq='epoch')
     #CSV logger call ack
